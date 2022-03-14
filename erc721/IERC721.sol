@@ -1,5 +1,4 @@
-import "./IERC165.sol";
-/**
+import "../erc165/IERC165.sol"; /**
  * @dev Required interface of an ERC721 compliant contract.
  */
 interface IERC721 is IERC165 {

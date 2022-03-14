@@ -1,9 +1,9 @@
 pragma solidity 0.5.16;
 
-import "./Context.sol";
+import "../utils/Context.sol";
 import "./IERC20.sol";
 import "./Ownable.sol";
-import "./SafeMath.sol";
+import "../utils/SafeMath.sol";
 
 
 contract BEP20Token is Context, IERC20, Ownable {
